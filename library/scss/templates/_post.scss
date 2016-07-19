@@ -1,0 +1,132 @@
+.post-detail{
+
+	#post{
+		border-bottom: 10px solid #00c0ff;
+		float: left;
+		margin: 0 20px 20px 20px;
+		padding: 20px 0;
+		width: 60%;
+
+		@media #{$medium-down}{
+			float: none;
+			margin: 0 auto 20px;
+			width: 90%;
+		}
+
+		.video-container{
+			margin: 0 0 20px;
+			position: relative;
+		    padding-bottom: 56.25%;
+		    padding-top: 35px;
+		    height: 0;
+		    overflow: hidden;
+
+		    iframe{
+		        position: absolute;
+			    top:0;
+			    left: 0;
+			    width: 100%;
+			    height: 100%;
+		    }
+
+		}
+
+		.vine-instagram{
+
+			iframe{
+				display: block;
+				margin: 0 auto !important;
+				width: 70% !important;
+		    }
+
+		}
+
+		#heading-page{
+			border: none;
+			margin: 0 0 10px; padding: 0;
+			width: 100%;
+		}
+
+		.social{
+			margin: 0 0 20px;
+
+			.fb-share-button, .twitter-share-button{
+				float: left;
+			}
+
+			.twitter-share-button{
+				margin: 4px 0 0 10px;
+			}
+
+		}
+		
+		p{
+			font-size: 14px;
+		}
+
+		// .fb-image{
+		// 	visibility: hidden;	
+		// 	width: 0; height: 0;
+		// }
+
+	}
+
+}
+
+#related{
+	float: left;
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 36%;
+
+	@media #{$medium-down}{
+		padding-top: 0;
+		float: none;
+		width: 90%;
+	}
+
+	#ad-sidebar{
+		background: #eaeaea;
+		margin: 0 0 20px; padding: 20px 0;
+
+		.adsbygoogle{
+			display: block !important;
+			margin: 0 auto;
+		}
+
+	}
+
+	h2{
+		color: #000;
+		font-size: 26px;
+		font-weight: 200;
+	}
+
+	.related-post{
+		background: #fff;
+		margin: 0 0 10px; padding: 10px;
+		// width: 100%;
+
+		.related-post-thumb{
+			float: left;
+			margin: 0 2% 0 0;
+			overflow: hidden;
+			width: 25%;
+		}
+
+		h2.related-post-title{
+			float: left;
+			font-size: 20px;
+			margin: 0;
+			width: 73%;
+		}
+
+		iframe{
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+		}
+
+	}
+
+}
